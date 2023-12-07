@@ -2,25 +2,25 @@ import React from 'react';
 import Link from 'next/link';
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  /** 버튼 안의 내용 */
+  /** Button content */
   children: React.ReactNode;
-  /** 버튼의 스타일을 설정합니다. */
+  /** Set button variant */
   variant?: 'default' | 'outline' | 'flat';
-  /** 버튼의 색상을 설정합니다. */
+  /** Set button color */
   color?: 'primary' | 'secondary' | 'danger' | 'transparent';
-  /** 버튼 사이즈를 설정합니다. */
+  /** Set button size */
   size?: 'large' | 'normal' | 'small';
-  /** 버튼의 로딩 상태를 설정합니다. */
+  /** Button loading state*/
   loading?: boolean;
-  /** 버튼의 가로 길이를 최대 사이즈로 설정합니다. */
+  /** Button block */
   block?: boolean;
-  /** 버튼을 비활성화 시킵니다. */
+  /** Button disabled */
   disabled?: boolean;
-  /** 버튼의 아이콘을 설정합니다.(왼쪽) */
+  /** Button left icon */
   leftIcon?: React.ReactNode;
-  /** 버튼의 아이콘을 설정합니다.(오른쪽) */
+  /** Button right icon */
   rightIcon?: React.ReactNode;
-  /** 버튼을 링크 형태로 사용할때는 href 속성을 사용. */
+  /** Button link */
   href?: string;
 }
 
