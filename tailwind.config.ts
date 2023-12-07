@@ -9,7 +9,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
+      colors: {
         /* primary color */
         'primary-100': 'rgb(155 159 242 / 1)',
         'primary-200': 'rgb(136 141 240 / 1)',
@@ -29,6 +29,7 @@ const config: Config = {
         'black-600': 'rgb(8 8 8 / 1)',
         'black-700': 'rgb(0 0 0 / 1)',
       },
+      backgroundColor: {},
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
