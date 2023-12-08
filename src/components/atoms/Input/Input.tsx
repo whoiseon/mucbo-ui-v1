@@ -17,6 +17,7 @@ interface Props extends React.InputHTMLAttributes<HTMLInputElement> {
   withIcon?: React.ReactNode;
 }
 
+// TODO: Adding a props to select a focus color.
 function Input({
   inputSize = 'normal',
   disabled = false,
